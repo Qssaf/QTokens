@@ -1,0 +1,21 @@
+name: QTokens
+description: $description
+prefix: QTokens
+version: '${version}'
+main: dev.parrotstudios.qTokens.QTokens
+api-version: '1.21.11'
+load: POSTWORLD
+authors: [ Qssaf ]
+softdepend: ["PlaceholderAPI"]
+commands:
+  qtokens:
+    aliases:
+      - Qtokens
+      - tokens
+    description: Main command for the plugin
+    permission: Qtokens.use
+permissions:
+  qtoken.use:
+    default: op
+  qtoken.use.reload:
+    default: op

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QTokens:jar">
+    <output-path>$USER_HOME$/Desktop/Mc plugins</output-path>
+    <root id="archive" name="QTokens.jar">
+      <element id="module-output" name="QTokens.main" />
+      <element id="module-source" name="QTokens.main" />
+    </root>
+  </artifact>
+</component>
