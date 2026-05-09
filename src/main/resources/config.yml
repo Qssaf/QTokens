@@ -1,0 +1,23 @@
+prefix: "<dark_red>[</dark_red><red><bold>QTK</bold></red><dark_red>]</dark_red> "
+
+token:
+  name: "<yellow><b>QToken</b></yellow>"
+  lore:
+    - ""
+    - "<yellow>Official for this server<yellow>"
+    - "<yellow>Use with villagers and menus"
+    - ""
+
+messages:
+  notOnline: "<red>That player is not online."
+  invalidAmount: "<red>Invalid amount."
+  gave: "<green>Gave %player% %amount% tokens."
+  balance: "<green>You have %amount% tokens."
+  balanceOther: "<green>%player% has %amount% tokens."
+  console: "<red>Only players can execute this command."
+  usage: "<red>Usage: /qtokens [give/take/balance] <player> <amount>"
+  reload: "<green>Plugin has reloaded successfully."
+  noPermission: "<red>You don't have permission to execute this command."
+  tookSuccess: "<green>Successfully took %amount% from %player%."
+  tookNotEnough: "<yellow>%player% only had %amount%, removed that amount from him."
+  tookNone: "<red>%player% is so poor he doesn't have any money."

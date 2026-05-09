@@ -13,9 +13,17 @@ commands:
       - Qtokens
       - tokens
     description: Main command for the plugin
-    permission: Qtokens.use
+    permission: qtokens.use
 permissions:
   qtoken.use:
     default: op
   qtoken.use.reload:
+    default: op
+  qtokens.use.balance:
+    default: op
+  qtokens.use.balance.others:
+    default: op
+  qtokens.use.take:
+    default: op
+  qtokens.use.give:
     default: op
